@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#007733"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/ic_baseline_home_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="병해충의 모든 것"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_rotate_right_24"
+        android:text="감자"
+        android:textColor="#000000"
+        app:backgroundTint="#9FC574" />
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/po" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="292dp"
+        android:text="감자란? 땅에서 자라는 여러해살이풀(多年生草本)이다. 인경(鱗莖)은 길쭉한데 몇 개가 서로 연결되어 엇비스듬하게 누워 자라며 밑에서 몇 개의 수근(鬚根)이 나온다. 잎은 인경에서 나오는데 2(1)개이며 짧은 엽병(葉柄)이 있다.
+
+엽신(葉身)은 좁은 피침형(鈹針形, 길이 20~30cm, 너비 1~3cm)인데 양끝은 점차 뾰족하다. 줄기(높이 30~40cm)는 한대씩 나와 곧추 자라며 밑부분에는 2~3개의 엽초상(葉鞘狀)의 인편엽(鱗片葉)이 있다. 6~8월에 줄기 끝에서 총상화서(總狀花序, 길이 10~20cm)를 이루고 10~25개의 갈색을 띤 누런꽃이 성글게 핀다.
+
+포(苞)는 선형(線形, 길이 4~8mm)이며 끝은 날카롭게 뾰족하고 막질이다. 화피편(花被片)들은 모두 피침형(길이 8~10mm)이며 끝은 둔하다.
+
+내화피(內花被)의 측화피편(側花被片)들은 외화피편(外花被片)과 모양이 비슷하다. 순판(脣瓣)은 도란형(倒卵形)이며 길이는 화피(花被)만하며 밑부분은 뾰족하고 끝은 3갈래로 갈라졌으며 그 안쪽에 흰색의 무늬가 있다. 순판의 중열편(中裂片)은 쐐기형의 도란형으로서 끝은 둥그스름하고 변두리에는 둔거치(鈍鋸齒)가 있으며 밑부분에는 2개의 도드라진 샘선이 있다.
+
+측열편(側裂片)은 좁은 겸형(鎌形)으로서 길이는 중열편의 절반정도에 달한다. 예주(蕊柱)는 원주상(圓柱狀, 길이 6mm)이다. 열매는 열개과(裂開果)인데 좁은 방추형(紡錘形, 길이 20mm)이고 짧은 꼭지가 있으며 7~9월에 여문다. 강원도 금강산 내금강의 구성동, 표훈동 등 지역의 깊은산 나무숲 속에서 자란다.
+[네이버 지식백과] 감자란 (조선향토대백과, 2008., 평화문제연구소)"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+
+
+
+
+</LinearLayout>
